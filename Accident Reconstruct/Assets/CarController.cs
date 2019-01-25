@@ -1,29 +1,48 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class CarController : MonoBehaviour
+public class CarController : NetworkBehaviour
 {
-    private float horizontalInput;
-    private float verticalInput;
-    private float wheelAngle;
-    
-    public WheelCollider frWheel;
-    public WheelCollider flWheel;
-    public WheelCollider brWheel;
-    public WheelCollider blWheel;
+    [HideInInspector]
+    public float horizontalInput;
+    [HideInInspector]
+    public float verticalInput;
+    [HideInInspector]
+    public float wheelAngle;
 
-    public Transform frTransform;
-    public Transform flTransform;
-    public Transform brTransform;
-    public Transform blTransform;
+    public ControlInputs input;
+
+    public List<Axel> axels;
+
+    public Rigidbody rb;
+    public float startForce = 100;
 
     public float maxWheelAngle = 30f;
-    public float torquePower = 50f;
-    public float breakPower = 50f;
+    public float forwardTorquePower = 2000f;
+    public float reverseTorquePower = 1500;
+    public float breakPower = 3000f;
+    public bool breaking;
+
+    public Transform carWaypoint;
+
+    public bool AI;
+
+    private void Awake()
+    {
+//        if (!isLocalPlayer)
+//        {
+//            input = null;
+//        }
+        
+    }
 
     public void FixedUpdate()
     {
+        if (!isLocalPlayer && !AI)
+        {
+            return;
+        }
         GetInput();
         Steer();
         Accelerate();
@@ -32,46 +51,121 @@ public class CarController : MonoBehaviour
 
     private void GetInput()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
+//        horizontalInput = Input.GetAxis("Horizontal");
+//        verticalInput = Input.GetAxis("Vertical");
+//        breaking = Input.GetButton("Brake");
+        if (input != null)
+        {
+            input.GetInputs(this);
+        }
     }
 
     private void Steer()
     {
         wheelAngle = maxWheelAngle * horizontalInput;
-        frWheel.steerAngle = wheelAngle;
-        flWheel.steerAngle = wheelAngle;
+        foreach(var axel in axels)
+        {
+            if (axel.steering)
+            {
+                axel.SetSteering(wheelAngle);
+            }
+        }
     }
 
     private void Accelerate()
     {
-        if (Input.GetButton("Brake"))
+        //====Breaking Stuff====
+        if (breaking)
         {
-          print("Braking!");
-          brWheel.brakeTorque = breakPower;
-          blWheel.brakeTorque = breakPower;
-          frWheel.brakeTorque = breakPower;
-          flWheel.brakeTorque = breakPower;
+            print("Braking!");
         }
-        else
+        //Set braking force on wheels if breaking
+        foreach (var axel in axels)
         {
-            brWheel.brakeTorque = 0;
-            blWheel.brakeTorque = 0;
-            frWheel.brakeTorque = 0;
-            flWheel.brakeTorque = 0;
+            if (breaking && axel.breaks)
+            {
+                axel.SetBrakeTorque(breakPower);
+            }
+            else
+            {
+                axel.SetBrakeTorque(0);
+            }
+        }
+
+        //====Takeoff force for faster start, arcadey====
+        if (rb.velocity.magnitude < 20 && Input.GetAxis("Vertical") > 0)
+        {
+            rb.AddForce(transform.forward * startForce);
+        }
+
+        //====Motor Force Stuff====
+        float torquePower = 0;
+        
+        //Different torque amount if reversing
+        if (verticalInput > 0)
+        {
+            torquePower = forwardTorquePower;
+        }
+        else if (verticalInput < 0)
+        {
+            torquePower = reverseTorquePower;
         }
         
-        brWheel.motorTorque = verticalInput * torquePower;
-        blWheel.motorTorque = verticalInput * torquePower;
+        //multiply input by proper torque amount
+        torquePower *= verticalInput;
         
+        //set motor force for wheels
+        foreach (var axel in axels)
+        {
+            if (axel.motor)
+            {
+                axel.SetMotorTorque(torquePower);
+            }
+        }        
     }
 
     private void UpdateWheelPoses()
     {
-        UpdateWheelPose(frWheel, frTransform);
-        UpdateWheelPose(flWheel, flTransform);
-        UpdateWheelPose(brWheel, brTransform);
-        UpdateWheelPose(blWheel, blTransform);
+        foreach (var axel in axels)
+        {
+            axel.UpdateWheelPoses();
+        }
+    }   
+}
+
+[System.Serializable]
+public class Axel
+{
+    public WheelCollider RWheelCollider;
+    public WheelCollider LWheelCollider;
+    public Transform RWheelTransform;
+    public Transform LWheelTransform;
+    public bool motor = false;
+    public bool steering = false;
+    public bool breaks = true;
+
+    public void SetSteering(float newSteerAngle)
+    {
+        RWheelCollider.steerAngle = newSteerAngle;
+        LWheelCollider.steerAngle = newSteerAngle;
+    }
+
+    public void SetBrakeTorque(float newBrakeTorque)
+    {
+        RWheelCollider.brakeTorque = newBrakeTorque;
+        LWheelCollider.brakeTorque = newBrakeTorque;
+    }
+
+    public void SetMotorTorque(float newMotorTorque)
+    {
+        RWheelCollider.motorTorque = newMotorTorque;
+        LWheelCollider.motorTorque = newMotorTorque;
+    }
+
+    public void UpdateWheelPoses()
+    {
+        UpdateWheelPose(RWheelCollider, RWheelTransform);
+        UpdateWheelPose(LWheelCollider, LWheelTransform);
     }
 
     private void UpdateWheelPose(WheelCollider col, Transform trans)

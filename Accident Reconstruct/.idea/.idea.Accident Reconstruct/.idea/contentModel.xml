@@ -4,10 +4,423 @@
     <e p="C:\Users\genar\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Accident Reconstruct.-1252027432.00" t="ExcludeRecursive" />
     <e p="D:\GIT\Accident Reconstruction Project\Accident Reconstruct" t="IncludeRecursive">
       <e p="Accident Reconstruct.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AntirollBar.cs" t="Include" />
+        <e p="BansheeGz" t="Include">
+          <e p="BGCurve" t="Include">
+            <e p="Examples" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="BGTestCamera.cs" t="Include" />
+                <e p="BGTestCcChangeCursorLinear.cs" t="Include" />
+                <e p="BGTestCurveChange.cs" t="Include" />
+                <e p="BGTestCurveClosestPoint.cs" t="Include" />
+                <e p="BGTestCurveDynamic.cs" t="Include" />
+                <e p="BGTestCurveMath.cs" t="Include" />
+                <e p="BGTestCurveRuntime.cs" t="Include" />
+                <e p="BGTestCurveRuntimeCustomFields.cs" t="Include" />
+                <e p="BGTestCurveShowcase.cs" t="Include" />
+                <e p="BGTestCurveSnapping.cs" t="Include" />
+                <e p="BGTestCurveStatic.cs" t="Include" />
+                <e p="BGTestDirector.cs" t="Include" />
+                <e p="BGTestMainMenu.cs" t="Include" />
+                <e p="BGTestPerformance.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Readme.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Cc" t="Include">
+                <e p="BGCcCursor.cs" t="Include" />
+                <e p="BGCcCursorChangeLinear.cs" t="Include" />
+                <e p="BGCcCursorObjectRotate.cs" t="Include" />
+                <e p="BGCcCursorObjectScale.cs" t="Include" />
+                <e p="BGCcCursorObjectTranslate.cs" t="Include" />
+                <e p="BGCcMath.cs" t="Include" />
+                <e p="BGCcSplitterPolyline.cs" t="Include" />
+                <e p="BGCcSweep2D.cs" t="Include" />
+                <e p="BGCcTriangulate2D.cs" t="Include" />
+                <e p="BGCcTrs.cs" t="Include" />
+                <e p="BGCcVisualizationLineRenderer.cs" t="Include" />
+                <e p="BGCcWithCursor.cs" t="Include" />
+                <e p="BGCcWithCursorObject.cs" t="Include" />
+                <e p="BGCcWithMath.cs" t="Include" />
+                <e p="BGPolylineSplitter.cs" t="Include" />
+                <e p="BGPpu.cs" t="Include" />
+                <e p="BGTriangulator2D.cs" t="Include" />
+              </e>
+              <e p="Curve" t="Include">
+                <e p="BGCc.cs" t="Include" />
+                <e p="BGCurve.cs" t="Include" />
+                <e p="BGCurveAdaptiveMath.cs" t="Include" />
+                <e p="BGCurveBaseMath.cs" t="Include" />
+                <e p="BGCurveCalculatorClosestPoint.cs" t="Include" />
+                <e p="BGCurveChangedArgs.cs" t="Include" />
+                <e p="BGCurveFormulaMath.cs" t="Include" />
+                <e p="BGCurveFormulas.cs" t="Include" />
+                <e p="BGCurveMathI.cs" t="Include" />
+                <e p="BGCurvePoint.cs" t="Include" />
+                <e p="BGCurvePointComponent.cs" t="Include" />
+                <e p="BGCurvePointField.cs" t="Include" />
+                <e p="BGCurvePointGO.cs" t="Include" />
+                <e p="BGCurvePointI.cs" t="Include" />
+                <e p="BGCurveReferenceToPoint.cs" t="Include" />
+                <e p="BGCurveSettings.cs" t="Include" />
+                <e p="BGReflectionAdapter.cs" t="Include" />
+              </e>
+              <e p="Editor" t="Include">
+                <e p="Cc" t="Include">
+                  <e p="BGCcCursorChangeLinearEditor.cs" t="Include" />
+                  <e p="BGCcCursorDrawer.cs" t="Include" />
+                  <e p="BGCcCursorEditor.cs" t="Include" />
+                  <e p="BGCcCursorObjectEditor.cs" t="Include" />
+                  <e p="BGCcCursorObjectRotateEditor.cs" t="Include" />
+                  <e p="BGCcCursorObjectScaleEditor.cs" t="Include" />
+                  <e p="BGCcCursorObjectTranslateEditor.cs" t="Include" />
+                  <e p="BGCcMathEditor.cs" t="Include" />
+                  <e p="BGCcSplitterPolylineEditor.cs" t="Include" />
+                  <e p="BGCcSweep2DEditor.cs" t="Include" />
+                  <e p="BGCcTriangulate2DEditor.cs" t="Include" />
+                  <e p="BGCcTrsEditor.cs" t="Include" />
+                  <e p="BGCcVisualizationLineRendererEditor.cs" t="Include" />
+                </e>
+                <e p="CcInfra" t="Include">
+                  <e p="BGCcAddWindow.cs" t="Include" />
+                  <e p="BGCcChangeNameWindow.cs" t="Include" />
+                  <e p="BGCcChoseDrawer.cs" t="Include" />
+                  <e p="BGCcChoseWindow.cs" t="Include" />
+                  <e p="BGCcEditor.cs" t="Include" />
+                  <e p="BGCcTreeView.cs" t="Include" />
+                </e>
+                <e p="Curve" t="Include">
+                  <e p="BGCurveEditor.cs" t="Include" />
+                  <e p="BGCurveEditorComponents.cs" t="Include" />
+                  <e p="BGCurveEditorFields.cs" t="Include" />
+                  <e p="BGCurveEditorPoint.cs" t="Include" />
+                  <e p="BGCurveEditorPoints.cs" t="Include" />
+                  <e p="BGCurveEditorPointsSelection.cs" t="Include" />
+                  <e p="BGCurveEditorSettings.cs" t="Include" />
+                  <e p="BGCurveEditorTab.cs" t="Include" />
+                  <e p="BGCurvePointComponentDrawer.cs" t="Include" />
+                  <e p="BGCurvePointGOEditor.cs" t="Include" />
+                  <e p="BGCurveReferenceToPointEditor.cs" t="Include" />
+                  <e p="BGNewPointPositionManager.cs" t="Include" />
+                  <e p="BGRectangularSelection.cs" t="Include" />
+                </e>
+                <e p="Infra" t="Include">
+                  <e p="BGChoseComponentWindow.cs" t="Include" />
+                  <e p="BGCurveChosePointWindow.cs" t="Include" />
+                  <e p="BGCurvePainterGizmo.cs" t="Include" />
+                  <e p="BGCurvePainterHandles.cs" t="Include" />
+                  <e p="BGHandlesSettingsDrawer.cs" t="Include" />
+                  <e p="BGPropertyDrawer.cs" t="Include" />
+                  <e p="BGTransformMonitor.cs" t="Include" />
+                </e>
+                <e p="Overlay" t="Include">
+                  <e p="BGOverlayMessage.cs" t="Include" />
+                  <e p="BGPopupMenu.cs" t="Include" />
+                  <e p="BGSceneViewOverlay.cs" t="Include" />
+                  <e p="BGSceneViewOverlayMenu.cs" t="Include" />
+                  <e p="BGSceneViewOverlayMenuPoint.cs" t="Include" />
+                  <e p="BGSceneViewOverlayMenuSelection.cs" t="Include" />
+                  <e p="BGSceneViewOverlayPointAdd.cs" t="Include" />
+                  <e p="BGSceneViewOverlayPointAddAtDistance.cs" t="Include" />
+                  <e p="BGSceneViewOverlayPointAddSnap2D.cs" t="Include" />
+                  <e p="BGSceneViewOverlayPointAddSnap3D.cs" t="Include" />
+                  <e p="BGSceneViewOverlayPointInsert.cs" t="Include" />
+                </e>
+                <e p="Settings" t="Include">
+                  <e p="BGAbstractSettingsForEditor.cs" t="Include" />
+                  <e p="BGCurveSettingsForEditor.cs" t="Include" />
+                  <e p="BGCurveSettingsForEditorWindow.cs" t="Include" />
+                  <e p="BGCurveSettingsOperations.cs" t="Include" />
+                  <e p="BGCurveSettingsSO.cs" t="Include" />
+                </e>
+                <e p="Utils" t="Include">
+                  <e p="BGEditorUtility.cs" t="Include" />
+                  <e p="BGPrivateField.cs" t="Include" />
+                  <e p="BGStartUp.cs" t="Include" />
+                  <e p="BGTableView.cs" t="Include" />
+                  <e p="BGTransition.cs" t="Include" />
+                  <e p="BGTreeView.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="CarController.cs" t="Include" />
+        <e p="ControlInputs" t="Include">
+          <e p="CIAIToPoint.cs" t="Include" />
+          <e p="CIPlayer.cs" t="Include" />
+          <e p="ControlInputs.cs" t="Include" />
+        </e>
+        <e p="destroyNonLocalHost.cs" t="Include" />
+        <e p="MoveCarWaypoint.cs" t="Include" />
+        <e p="SampleScenes" t="Include">
+          <e p="Menu" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="MenuSceneLoader.cs" t="Include" />
+              <e p="PauseMenu.cs" t="Include" />
+              <e p="SceneAndURLLoader.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="CameraSwitch.cs" t="Include" />
+            <e p="LevelReset.cs" t="Include" />
+            <e p="ParticleSceneControls.cs" t="Include" />
+            <e p="PlaceTargetWithMouse.cs" t="Include" />
+            <e p="SlowMoButton.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Skybox-Procedural.shader" t="Include" />
+          </e>
+        </e>
         <e p="SetCenterOfMass.cs" t="Include" />
+        <e p="Speedometer.cs" t="Include" />
+        <e p="Standard Assets" t="Include">
+          <e p="2D" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Camera2DFollow.cs" t="Include" />
+              <e p="CameraFollow.cs" t="Include" />
+              <e p="Platformer2DUserControl.cs" t="Include" />
+              <e p="PlatformerCharacter2D.cs" t="Include" />
+              <e p="Restarter.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Cameras" t="Include">
+            <e p="CameraGuidelines.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="AbstractTargetFollower.cs" t="Include" />
+              <e p="AutoCam.cs" t="Include" />
+              <e p="FreeLookCam.cs" t="Include" />
+              <e p="HandHeldCam.cs" t="Include" />
+              <e p="LookatTarget.cs" t="Include" />
+              <e p="PivotBasedCameraRig.cs" t="Include" />
+              <e p="ProtectCameraFromWallClip.cs" t="Include" />
+              <e p="TargetFieldOfView.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Characters" t="Include">
+            <e p="FirstPersonCharacter" t="Include">
+              <e p="FirstPersonCharacterGuidelines.txt" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="FirstPersonController.cs" t="Include" />
+                <e p="HeadBob.cs" t="Include" />
+                <e p="MouseLook.cs" t="Include" />
+                <e p="RigidbodyFirstPersonController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="RollerBall" t="Include">
+              <e p="RollerBallGuidelines.txt" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="Ball.cs" t="Include" />
+                <e p="BallUserControl.cs" t="Include" />
+              </e>
+            </e>
+            <e p="ThirdPersonCharacter" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="AICharacterControl.cs" t="Include" />
+                <e p="ThirdPersonCharacter.cs" t="Include" />
+                <e p="ThirdPersonUserControl.cs" t="Include" />
+              </e>
+              <e p="ThirdPersonCharacterGuidelines.txt" t="Include" />
+            </e>
+          </e>
+          <e p="CrossPlatformInput" t="Include">
+            <e p="CrossPlatformInputGuidelines.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="AxisTouchButton.cs" t="Include" />
+              <e p="ButtonHandler.cs" t="Include" />
+              <e p="CrossPlatformInputManager.cs" t="Include" />
+              <e p="InputAxisScrollbar.cs" t="Include" />
+              <e p="Joystick.cs" t="Include" />
+              <e p="MobileControlRig.cs" t="Include" />
+              <e p="PlatformSpecific" t="Include">
+                <e p="MobileInput.cs" t="Include" />
+                <e p="StandaloneInput.cs" t="Include" />
+              </e>
+              <e p="TiltInput.cs" t="Include" />
+              <e p="TouchPad.cs" t="Include" />
+              <e p="VirtualInput.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="CrossPlatformInput" t="Include">
+              <e p="CrossPlatformInputInitialize.cs" t="Include" />
+            </e>
+            <e p="Water" t="Include">
+              <e p="Water4" t="Include">
+                <e p="GerstnerDisplaceEditor.cs" t="Include" />
+                <e p="PlanarReflectionEditor.cs" t="Include" />
+                <e p="SpecularLightingEditor.cs" t="Include" />
+                <e p="WaterBaseEditor.cs" t="Include" />
+                <e p="WaterEditorUtility.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Effects" t="Include">
+            <e p="GlassRefraction" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="GlassStainedBumpDistort.shader" t="Include" />
+              </e>
+            </e>
+            <e p="ImageEffects" t="Include">
+              <e p="Readme.txt" t="Include" />
+            </e>
+            <e p="Projectors" t="Include">
+              <e p="Guidelines.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="ProjectorLight.shader" t="Include" />
+                <e p="ProjectorMultiply.shader" t="Include" />
+              </e>
+            </e>
+            <e p="TessellationShaders" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="BumpedSpecularDisplacement.shader" t="Include" />
+                <e p="BumpedSpecularSmooth.shader" t="Include" />
+              </e>
+            </e>
+            <e p="ToonShading" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="ToonBasic.shader" t="Include" />
+                <e p="ToonBasicOutline.shader" t="Include" />
+                <e p="ToonLit.shader" t="Include" />
+                <e p="ToonLitOutline.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Environment" t="Include">
+            <e p="Water" t="Include">
+              <e p="DO_NOT_WORK_IN_VR.txt" t="Include" />
+              <e p="Water" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Displace.cs" t="Include" />
+                  <e p="GerstnerDisplace.cs" t="Include" />
+                  <e p="MeshContainer.cs" t="Include" />
+                  <e p="PlanarReflection.cs" t="Include" />
+                  <e p="SpecularLighting.cs" t="Include" />
+                  <e p="Water.cs" t="Include" />
+                  <e p="WaterBase.cs" t="Include" />
+                  <e p="WaterTile.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="FXWaterPro.shader" t="Include" />
+                </e>
+              </e>
+              <e p="Water4" t="Include">
+                <e p="Shaders" t="Include">
+                  <e p="FXWater4Advanced.shader" t="Include" />
+                  <e p="FXWater4Simple.shader" t="Include" />
+                  <e p="WaterInclude.cginc" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Water (Basic)" t="Include">
+              <e p="DO_NOT_WORK_IN_VR.txt" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="WaterBasic.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="FXWaterBasic.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Fonts" t="Include">
+            <e p="OpenSans" t="Include">
+              <e p="License!.txt" t="Include" />
+            </e>
+          </e>
+          <e p="ParticleSystems" t="Include">
+            <e p="ParticleSystemsGuidelines.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="AfterburnerPhysicsForce.cs" t="Include" />
+              <e p="ExplosionFireAndDebris.cs" t="Include" />
+              <e p="ExplosionPhysicsForce.cs" t="Include" />
+              <e p="Explosive.cs" t="Include" />
+              <e p="ExtinguishableParticleSystem.cs" t="Include" />
+              <e p="FireLight.cs" t="Include" />
+              <e p="Hose.cs" t="Include" />
+              <e p="ParticleSystemMultiplier.cs" t="Include" />
+              <e p="SmokeParticles.cs" t="Include" />
+              <e p="WaterHoseParticles.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="PriorityParticleAdd.shader" t="Include" />
+              <e p="PriorityParticleAddSoft.shader" t="Include" />
+              <e p="PriorityParticleAlpha.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Prototyping" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="WorldCoordDiffuse.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Utility" t="Include">
+            <e p="ActivateTrigger.cs" t="Include" />
+            <e p="AlphaButtonClickMask.cs" t="Include" />
+            <e p="AutoMobileShaderSwitch.cs" t="Include" />
+            <e p="AutoMoveAndRotate.cs" t="Include" />
+            <e p="CameraRefocus.cs" t="Include" />
+            <e p="CurveControlledBob.cs" t="Include" />
+            <e p="DragRigidbody.cs" t="Include" />
+            <e p="DynamicShadowSettings.cs" t="Include" />
+            <e p="EventSystemChecker.cs" t="Include" />
+            <e p="FollowTarget.cs" t="Include" />
+            <e p="ForcedReset.cs" t="Include" />
+            <e p="FOVKick.cs" t="Include" />
+            <e p="FPSCounter.cs" t="Include" />
+            <e p="LerpControlledBob.cs" t="Include" />
+            <e p="ObjectResetter.cs" t="Include" />
+            <e p="ParticleSystemDestroyer.cs" t="Include" />
+            <e p="PlatformSpecificContent.cs" t="Include" />
+            <e p="SimpleActivatorMenu.cs" t="Include" />
+            <e p="SimpleMouseRotator.cs" t="Include" />
+            <e p="SmoothFollow.cs" t="Include" />
+            <e p="TimedObjectActivator.cs" t="Include" />
+            <e p="TimedObjectDestructor.cs" t="Include" />
+            <e p="WaypointCircuit.cs" t="Include" />
+            <e p="WaypointProgressTracker.cs" t="Include" />
+          </e>
+          <e p="Vehicles" t="Include">
+            <e p="Aircraft" t="Include">
+              <e p="AircraftGuidelines.txt" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="AeroplaneAiControl.cs" t="Include" />
+                <e p="AeroplaneAudio.cs" t="Include" />
+                <e p="AeroplaneController.cs" t="Include" />
+                <e p="AeroplaneControlSurfaceAnimator.cs" t="Include" />
+                <e p="AeroplanePropellerAnimator.cs" t="Include" />
+                <e p="AeroplaneUserControl2Axis.cs" t="Include" />
+                <e p="AeroplaneUserControl4Axis.cs" t="Include" />
+                <e p="JetParticleEffect.cs" t="Include" />
+                <e p="LandingGear.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Car" t="Include">
+              <e p="CarGuidelines.txt" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="BrakeLight.cs" t="Include" />
+                <e p="CarAIControl.cs" t="Include" />
+                <e p="CarAudio.cs" t="Include" />
+                <e p="CarController.cs" t="Include" />
+                <e p="CarSelfRighting.cs" t="Include" />
+                <e p="CarUserControl.cs" t="Include" />
+                <e p="Mudguard.cs" t="Include" />
+                <e p="SkidTrail.cs" t="Include" />
+                <e p="Suspension.cs" t="Include" />
+                <e p="WheelEffects.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="DiffuseReflectiveShader.shader" t="Include" />
+                <e p="ReflectiveDiffuseSpec.shader" t="Include" />
+                <e p="ReflectiveDiffuseSpecTransp.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Toon.shader" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
