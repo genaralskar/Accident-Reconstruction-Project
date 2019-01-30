@@ -9,6 +9,7 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AddCurvePointTest.cs" t="Include" />
         <e p="AntirollBar.cs" t="Include" />
         <e p="BansheeGz" t="Include">
           <e p="BGCurve" t="Include">

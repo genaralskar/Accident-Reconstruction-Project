@@ -16,40 +16,8 @@
           <file leaf-file-name="CarController.cs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/CarController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1245">
+                <state relative-caret-position="1515">
                   <caret line="103" column="2" selection-start-line="103" selection-start-column="2" selection-end-line="103" selection-end-column="2" />
-                  <folding>
-                    <marker date="1548454470270" expanded="false" signature="6:82" ph="..." />
-                    <marker date="1548454470270" expanded="true" signature="129:2978" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="689:792" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="696:777" ph="/* if (!isLocalPlayer) ... */" />
-                    <marker date="1548454470270" expanded="true" signature="823:997" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="864:904" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1026:1277" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1033:1189" ph="/* horizontalInput = Input.GetAxis(&quot;Horizontal&quot;); ... */" />
-                    <marker date="1548454470270" expanded="true" signature="1216:1271" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1303:1529" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1398:1523" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1439:1513" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1560:2831" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1621:1672" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1758:1981" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1809:1886" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1903:1971" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2113:2190" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2345:2411" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2447:2513" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2691:2817" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2729:2807" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2868:2973" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2910:2967" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="3019:4190" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="3325:3439" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="3493:3611" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="3665:3783" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="3819:3947" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="4017:4188" ph="{...}" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -59,10 +27,10 @@
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file leaf-file-name="MoveCarWaypoint.cs" pinned="false" current-in-tab="true">
+          <file leaf-file-name="MoveCarWaypoint.cs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/MoveCarWaypoint.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="143">
+                <state relative-caret-position="135">
                   <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
                 </state>
               </provider>
@@ -100,46 +68,66 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="BGCurvePoint.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurvePoint.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="900">
+                  <caret line="815" column="5" selection-start-line="815" selection-start-column="5" selection-end-line="815" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="CarController.cs" pinned="false" current-in-tab="true">
+          <file leaf-file-name="CarController.cs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/CarController.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="585">
-                  <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+                  <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/readme.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="465">
+                  <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BGCurve.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurve.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="645" column="45" selection-start-line="645" selection-start-column="45" selection-end-line="645" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BGCurvePointGO.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurvePointGO.cs">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="AddCurvePointTest.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/AddCurvePointTest.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
                   <folding>
-                    <marker date="1548454470270" expanded="false" signature="6:82" ph="..." />
-                    <marker date="1548454470270" expanded="true" signature="129:2978" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="689:792" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="696:777" ph="/* if (!isLocalPlayer) ... */" />
-                    <marker date="1548454470270" expanded="true" signature="823:997" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="864:904" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1026:1277" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1033:1189" ph="/* horizontalInput = Input.GetAxis(&quot;Horizontal&quot;); ... */" />
-                    <marker date="1548454470270" expanded="true" signature="1216:1271" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1303:1529" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1398:1523" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1439:1513" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1560:2831" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1621:1672" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1758:1981" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1809:1886" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="1903:1971" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2113:2190" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2345:2411" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2447:2513" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2691:2817" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2729:2807" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2868:2973" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="2910:2967" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="3019:4190" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="3325:3439" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="3493:3611" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="3665:3783" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="3819:3947" ph="{...}" />
-                    <marker date="1548454470270" expanded="true" signature="4017:4188" ph="{...}" />
+                    <marker date="1548878072023" expanded="false" signature="6:136" ph="..." />
+                    <marker date="1548878072023" expanded="true" signature="184:1112" ph="{...}" />
+                    <marker date="1548878072023" expanded="true" signature="304:671" ph="{...}" />
+                    <marker date="1548878072023" expanded="true" signature="415:647" ph="{...}" />
+                    <marker date="1548878072023" expanded="true" signature="541:637" ph="{...}" />
+                    <marker date="1548878072023" expanded="true" signature="702:738" ph="{...}" />
+                    <marker date="1548878072023" expanded="true" signature="769:804" ph="{...}" />
+                    <marker date="1548878072023" expanded="true" signature="853:980" ph="{...}" />
+                    <marker date="1548878072023" expanded="true" signature="1030:1110" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -176,20 +164,31 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>methodaddpoint</find>
+      <find>addpoint</find>
+      <find>CurvePointGO</find>
+    </findStrings>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ControlInputs/CIAIToPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AntirollBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ControlInputs/ControlInputs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Speedometer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AddCurvePointTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SetCenterOfMass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurvePointGO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ControlInputs/CIPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Toon.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MoveCarWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurve.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/destroyNonLocalHost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurvePoint.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -206,6 +205,7 @@
         <option value="$PROJECT_DIR$/Assets/ControlInputs/CIPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/destroyNonLocalHost.cs" />
         <option value="$PROJECT_DIR$/Assets/CarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/AddCurvePointTest.cs" />
       </list>
     </option>
   </component>
@@ -228,6 +228,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -239,10 +243,6 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
       </pane>
       <pane id="Scratches" />
     </panes>
@@ -280,12 +280,13 @@
       <workItem from="1547672628337" duration="2206000" />
       <workItem from="1547759056280" duration="4148000" />
       <workItem from="1548024061619" duration="7972000" />
-      <workItem from="1548450023935" duration="2472000" />
+      <workItem from="1548450023935" duration="3066000" />
+      <workItem from="1548873642988" duration="4366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20885000" />
+    <option name="totallyTimeSpent" value="25845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -305,16 +306,16 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.2489339" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,6 +331,55 @@
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/AntirollBar.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Speedometer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MoveCarWaypoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CarController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="103" column="2" selection-start-line="103" selection-start-column="2" selection-end-line="103" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/destroyNonLocalHost.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ControlInputs/CIPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ControlInputs/CIAIToPoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ControlInputs/ControlInputs.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -382,38 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-          <folding>
-            <marker date="1548454470270" expanded="false" signature="6:82" ph="..." />
-            <marker date="1548454470270" expanded="true" signature="129:2978" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="689:792" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="696:777" ph="/* if (!isLocalPlayer) ... */" />
-            <marker date="1548454470270" expanded="true" signature="823:997" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="864:904" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1026:1277" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1033:1189" ph="/* horizontalInput = Input.GetAxis(&quot;Horizontal&quot;); ... */" />
-            <marker date="1548454470270" expanded="true" signature="1216:1271" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1303:1529" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1398:1523" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1439:1513" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1560:2831" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1621:1672" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1758:1981" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1809:1886" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1903:1971" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2113:2190" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2345:2411" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2447:2513" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2691:2817" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2729:2807" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2868:2973" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2910:2967" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="3019:4190" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="3325:3439" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="3493:3611" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="3665:3783" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="3819:3947" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="4017:4188" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,10 +588,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurvePointGO.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MoveCarWaypoint.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
+        <state relative-caret-position="135">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurve.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="645" column="45" selection-start-line="645" selection-start-column="45" selection-end-line="645" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CarController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurvePoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="815" column="5" selection-start-line="815" selection-start-column="5" selection-end-line="815" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -584,41 +633,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CarController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/AddCurvePointTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        <state relative-caret-position="225">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
           <folding>
-            <marker date="1548454470270" expanded="false" signature="6:82" ph="..." />
-            <marker date="1548454470270" expanded="true" signature="129:2978" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="689:792" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="696:777" ph="/* if (!isLocalPlayer) ... */" />
-            <marker date="1548454470270" expanded="true" signature="823:997" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="864:904" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1026:1277" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1033:1189" ph="/* horizontalInput = Input.GetAxis(&quot;Horizontal&quot;); ... */" />
-            <marker date="1548454470270" expanded="true" signature="1216:1271" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1303:1529" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1398:1523" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1439:1513" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1560:2831" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1621:1672" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1758:1981" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1809:1886" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="1903:1971" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2113:2190" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2345:2411" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2447:2513" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2691:2817" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2729:2807" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2868:2973" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="2910:2967" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="3019:4190" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="3325:3439" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="3493:3611" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="3665:3783" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="3819:3947" ph="{...}" />
-            <marker date="1548454470270" expanded="true" signature="4017:4188" ph="{...}" />
+            <marker date="1548878072023" expanded="false" signature="6:136" ph="..." />
+            <marker date="1548878072023" expanded="true" signature="184:1112" ph="{...}" />
+            <marker date="1548878072023" expanded="true" signature="304:671" ph="{...}" />
+            <marker date="1548878072023" expanded="true" signature="415:647" ph="{...}" />
+            <marker date="1548878072023" expanded="true" signature="541:637" ph="{...}" />
+            <marker date="1548878072023" expanded="true" signature="702:738" ph="{...}" />
+            <marker date="1548878072023" expanded="true" signature="769:804" ph="{...}" />
+            <marker date="1548878072023" expanded="true" signature="853:980" ph="{...}" />
+            <marker date="1548878072023" expanded="true" signature="1030:1110" ph="{...}" />
           </folding>
         </state>
       </provider>
